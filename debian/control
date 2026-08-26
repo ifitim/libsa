@@ -1,0 +1,24 @@
+Source: libsa
+Section: libs
+Priority: optional
+Maintainer: Salia Sanika <saliasanika@outlook.com>
+Build-Depends:
+ debhelper-compat (= 13),
+ build-essential
+Standards-Version: 4.6.2
+
+Package: libsa1
+Architecture: amd64
+Depends:
+ ${shlibs:Depends},
+ ${misc:Depends}
+Description: Terminal animation library for C
+ Runtime library for terminal animations.
+
+Package: libsa-dev
+Architecture: amd64
+Depends:
+ libsa1 (= ${binary:Version}),
+ ${misc:Depends}
+Description: Development files for libsa
+ Header files and linker files for libsa.

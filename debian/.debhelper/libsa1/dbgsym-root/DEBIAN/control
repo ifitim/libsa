@@ -1,0 +1,13 @@
+Package: libsa1-dbgsym
+Package-Type: ddeb
+Source: libsa
+Version: 1.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Salia Sanika <saliasanika@outlook.com>
+Installed-Size: 15
+Depends: libsa1 (= 1.0-1)
+Section: debug
+Priority: optional
+Description: debug symbols for libsa1
+Build-Ids: 7213809014702b160f2ff8434dcc0a1e721b38e4

@@ -1,9 +1,11 @@
 Package: libsa-dev
+Source: libsa
 Version: 1.0-1
-Section: libdevel
-Priority: optional
 Architecture: amd64
-Maintainer: rumiantsv
+Maintainer: Salia Sanika <saliasanika@outlook.com>
+Installed-Size: 13
 Depends: libsa1 (= 1.0-1)
+Section: libs
+Priority: optional
 Description: Development files for libsa
- Header files for the libsa C terminal animation library.
+ Header files and linker files for libsa.

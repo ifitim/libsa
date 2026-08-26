@@ -1,0 +1,6 @@
+libsa (1.0-1) unstable; urgency=medium
+
+  * Initial Debian release.
+  * Terminal animation library for C.
+
+ -- Sanika Salia <saliasanika@outlook.com>  Thu, 27 Aug 2026 00:45:00 +0200

@@ -1,8 +1,11 @@
 Package: libsa1
+Source: libsa
 Version: 1.0-1
+Architecture: amd64
+Maintainer: Salia Sanika <saliasanika@outlook.com>
+Installed-Size: 27
+Depends: libc6 (>= 2.3.4)
 Section: libs
 Priority: optional
-Architecture: amd64
-Maintainer: rumiantsv
 Description: Terminal animation library for C
- Runtime library for libsa.
+ Runtime library for terminal animations.
