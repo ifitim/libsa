@@ -1,0 +1,8 @@
+Package: libsa
+Version: 1.0-1
+Section: libs
+Priority: optional
+Architecture: amd64
+Maintainer: rumiantsv
+Description: Terminal animation library for C
+ A simple C library for terminal animations: spinners, dots, bars and pulses.
