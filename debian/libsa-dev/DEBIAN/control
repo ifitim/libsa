@@ -1,0 +1,9 @@
+Package: libsa-dev
+Version: 1.0-1
+Section: libdevel
+Priority: optional
+Architecture: amd64
+Maintainer: rumiantsv
+Depends: libsa1 (= 1.0-1)
+Description: Development files for libsa
+ Header files for the libsa C terminal animation library.
