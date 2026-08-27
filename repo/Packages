@@ -1,0 +1,34 @@
+Package: libsa-dev
+Source: libsa
+Version: 35.12.9
+Architecture: amd64
+Maintainer: Salia Sanika <saliasanika@outlook.com>
+Installed-Size: 14
+Depends: libsa1 (= 35.12.9)
+Filename: ./libsa-dev_35.12.9_amd64.deb
+Size: 2142
+MD5sum: 128db077104ff38be9d497eca3ba40cf
+SHA1: f760bffc96205385eddf3802fc2442c73aacd63f
+SHA256: 52afb7b5a2964545aaaed3de4db2ac73c19621ebaf4ed35ed6adde08d8ea2bd0
+Section: libs
+Priority: optional
+Description: Development files for libsa
+ Header files and linker files for libsa.
+
+Package: libsa1
+Source: libsa
+Version: 35.12.9
+Architecture: amd64
+Maintainer: Salia Sanika <saliasanika@outlook.com>
+Installed-Size: 29
+Depends: libc6 (>= 2.4)
+Filename: ./libsa1_35.12.9_amd64.deb
+Size: 6898
+MD5sum: 2c9377c59f0c648cb8c14b137cbe7e44
+SHA1: cf1137f960e26f0e33c7fbc3e080d8db7012eec7
+SHA256: 31f2204ff0b78f0e9d64fed0981bf7230e3f68419ca841775609d6e23d9e644a
+Section: libs
+Priority: optional
+Description: Terminal animation library for C
+ Runtime library for terminal animations.
+

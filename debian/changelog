@@ -1,6 +1,10 @@
-libsa (1.0-1) unstable; urgency=medium
+libsa (35.12.9) unstable; urgency=medium
 
-  * Initial Debian release.
-  * Terminal animation library for C.
+  * Added 256 ANSI color engine
+  * Added rainbow gradient animations
+  * Added terminal widgets
+  * Added download/upload UI
+  * Added matrix, wave and glitch effects
+  * Expanded animation API
 
  -- Sanika Salia <saliasanika@outlook.com>  Thu, 27 Aug 2026 00:45:00 +0200
