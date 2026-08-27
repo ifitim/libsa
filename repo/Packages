@@ -1,0 +1,49 @@
+Package: libsa
+Version: 1.0-1
+Architecture: amd64
+Maintainer: rumiantsv
+Depends: libsa1 (= 1.0-1), libsa-dev (= 1.0-1)
+Filename: ./libsa_1.0-1_amd64.deb
+Size: 566
+MD5sum: 80115714f2c14a78dc50209236f2209c
+SHA1: add4decd9b1077233950a16030b51a63a2a94778
+SHA256: d592604b70de6de6395b99f583e60fb29401cd16bfdb1ae09d0c1e1161584a4a
+Section: libs
+Priority: optional
+Description: Terminal animation library for C
+ Meta package for libsa runtime library and development files.
+
+Package: libsa-dev
+Source: libsa
+Version: 1.0-1
+Architecture: amd64
+Maintainer: Salia Sanika <saliasanika@outlook.com>
+Installed-Size: 13
+Depends: libsa1 (= 1.0-1)
+Filename: ./libsa-dev_1.0-1_amd64.deb
+Size: 1990
+MD5sum: 6722a6a045ceba8751564e5f86f52649
+SHA1: c6ffb62ab57b1b72f8930b4efa0e9da113075b49
+SHA256: 51fef4cc8d83579369ce594f7d5f1c97431a8fdd314acba6cb246733ef65faa1
+Section: libs
+Priority: optional
+Description: Development files for libsa
+ Header files and linker files for libsa.
+
+Package: libsa1
+Source: libsa
+Version: 1.0-1
+Architecture: amd64
+Maintainer: Salia Sanika <saliasanika@outlook.com>
+Installed-Size: 27
+Depends: libc6 (>= 2.3.4)
+Filename: ./libsa1_1.0-1_amd64.deb
+Size: 3460
+MD5sum: bdebc27f112188b1e187150a27fd4140
+SHA1: 5c493c407aeeef1b4c2ab3033e08a923728fc61e
+SHA256: 2f441414fc22e16893e36b862ba1a0a094744aec3b98968b9763514b8a46ab3b
+Section: libs
+Priority: optional
+Description: Terminal animation library for C
+ Runtime library for terminal animations.
+

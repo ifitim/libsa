@@ -1,0 +1,9 @@
+Package: libsa
+Version: 1.0-1
+Section: libs
+Priority: optional
+Architecture: amd64
+Maintainer: rumiantsv
+Depends: libsa1 (= 1.0-1), libsa-dev (= 1.0-1)
+Description: Terminal animation library for C
+ Meta package for libsa runtime library and development files.
