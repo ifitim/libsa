@@ -1,3 +1,21 @@
+Package: libsa
+Version: 35.12.9
+Architecture: all
+Maintainer: ifitim <ifitim@github.com>
+Installed-Size: 8
+Depends: libsa1 (= 35.12.9), libsa-dev (= 35.12.9)
+Filename: ./libsa_35.12.9_all.deb
+Size: 1288
+MD5sum: 1ce4e82bd69592716fb50ecc69e8db51
+SHA1: 124ef607c30847a7ac9bd5f38d62a5d209ac7e18
+SHA256: 24cd26bf71ba1953031d67ccbf61ee18463eaefbee39bdc5785875fc0c912d37
+Section: libs
+Priority: optional
+Description: Terminal animation library for C
+ Terminal animation library for C.
+ This package installs both the runtime library and
+ development files.
+
 Package: libsa-dev
 Source: libsa
 Version: 35.12.9
